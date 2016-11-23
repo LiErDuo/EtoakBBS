@@ -14,7 +14,7 @@
 	<dependencies>
 	<dependency>
 		<groupId>etoak</groupId>
-		<artifactId>etaok-bbs-vo</artifactId>
+		<artifactId>etaok-bbs-dto</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</dependency>
 	<dependency>

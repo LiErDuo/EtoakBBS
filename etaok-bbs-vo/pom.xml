@@ -8,8 +8,8 @@
 		<artifactId>etoak-bbs</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>etaok-bbs-vo</artifactId>
-	<name>etaok-bbs-vo</name>
+	<artifactId>etaok-bbs-dto</artifactId>
+	<name>etaok-bbs-dto</name>
 	<url>http://maven.apache.org</url>
 	<dependencies></dependencies>
 </project>

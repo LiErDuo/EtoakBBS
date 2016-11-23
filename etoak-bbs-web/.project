@@ -3,6 +3,7 @@
 	<name>etoak-bbs-web</name>
 	<comment></comment>
 	<projects>
+		<project>etoak-bbs-service</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
