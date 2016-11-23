@@ -12,5 +12,25 @@
 	<name>etoak-bbs-service</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
+	<dependency>
+		<groupId>etoak</groupId>
+		<artifactId>etaok-bbs-vo</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</dependency>
+	<dependency>
+		<groupId>etoak</groupId>
+		<artifactId>etoak-bbs-common</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</dependency>
+	<dependency>
+		<groupId>etoak</groupId>
+		<artifactId>etoak-bbs-data</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</dependency>
+	<dependency>
+		<groupId>etoak</groupId>
+		<artifactId>etoak-bbs-po</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</dependency>
 	</dependencies>
 </project>
