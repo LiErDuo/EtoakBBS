@@ -14,12 +14,12 @@
 	<dependencies>
 		<dependency>
 			<groupId>etoak</groupId>
-			<artifactId>etoak-bbs-dto</artifactId>
+			<artifactId>etoak-bbs-vo</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>etoak</groupId>
-			<artifactId>etoak-bbs-po</artifactId>
+			<artifactId>etoak-bbs-common</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
