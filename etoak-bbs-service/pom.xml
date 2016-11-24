@@ -14,11 +14,6 @@
 	<dependencies>
 	<dependency>
 		<groupId>etoak</groupId>
-		<artifactId>etaok-bbs-dto</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
-	</dependency>
-	<dependency>
-		<groupId>etoak</groupId>
 		<artifactId>etoak-bbs-common</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</dependency>
@@ -30,6 +25,11 @@
 	<dependency>
 		<groupId>etoak</groupId>
 		<artifactId>etoak-bbs-po</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</dependency>
+	<dependency>
+		<groupId>etoak</groupId>
+		<artifactId>etoak-bbs-dto</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</dependency>
 	</dependencies>

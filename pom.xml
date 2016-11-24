@@ -47,7 +47,23 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+		</dependency>
 
+		<dependency>
+			<groupId>org.springframework.session</groupId>
+			<artifactId>spring-session</artifactId>
+			<version>1.0.1.RELEASE</version>
+		</dependency>
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-jdbc</artifactId>
@@ -181,7 +197,7 @@
 		<module>etoak-bbs-common</module>
 		<module>etoak-bbs-web</module>
 		<module>etoak-bbs-service</module>
-		<module>etaok-bbs-vo</module>
 		<module>etoak-bbs-po</module>
+		<module>etoak-bbs-dto</module>
 	</modules>
 </project>
