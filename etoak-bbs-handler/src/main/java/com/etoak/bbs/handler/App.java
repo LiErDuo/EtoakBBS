@@ -1,4 +1,4 @@
-package org.etoak.bbs.dto;
+package com.etoak.bbs.handler;
 
 /**
  * Hello world!

@@ -1,4 +1,4 @@
-package org.etoak.bbs.dto;
+package com.etoak.bbs.vo;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

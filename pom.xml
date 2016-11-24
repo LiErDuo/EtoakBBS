@@ -198,6 +198,7 @@
 		<module>etoak-bbs-web</module>
 		<module>etoak-bbs-service</module>
 		<module>etoak-bbs-po</module>
-		<module>etoak-bbs-dto</module>
+		<module>etoak-bbs-vo</module>
+		<module>etoak-bbs-handler</module>
 	</modules>
 </project>
