@@ -19,9 +19,8 @@ import org.springframework.core.io.Resource;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import org.springframework.core.io.support.ResourcePatternResolver;
 import org.springframework.util.ClassUtils;
-import org.springframework.web.bind.annotation.InitBinder;
 
-import com.alibaba.druid.pool.DruidDataSource;
+import net.sf.log4jdbc.Log4jdbcProxyDataSource;
 
 /**
  * MyBatis 配置，初始化MyBatis,定义SqlSession 与SqlSessionFactory
@@ -44,9 +43,9 @@ public class MyBatisConfig {
 	public SqlSessionFactory sbmSqlSessionFactory() throws Exception {
 		logger.info("初始化MyBatis.....");
 		final SqlSessionFactoryBean sessionFactory = new SqlSessionFactoryBean();
-		sessionFactory.setDataSource(dataSourceEtoak);
+		sessionFactory.setDataSource(new Log4jdbcProxyDataSource(dataSourceEtoak));
 		sessionFactory.setFailFast(true);
-		sessionFactory.setMapperLocations(getResource("mapper", "**/*.xml"));
+		sessionFactory.setMapperLocations(getResource("com/etoak/bbs/data/mapper", "**/*Mapper.xml"));
 		return sessionFactory.getObject();
 	}
 

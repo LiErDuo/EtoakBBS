@@ -28,12 +28,15 @@
 
 	<dependencyManagement>
 		<dependencies>
+
+			<!-- 阿里json包 -->
 			<dependency>
 				<groupId>com.alibaba</groupId>
 				<artifactId>fastjson</artifactId>
 				<version>1.2.21</version>
 			</dependency>
-
+			
+			<!-- 阿里druid包   用于分配管理 及监控 数据源datasource -->
 			<dependency>
 				<groupId>com.alibaba</groupId>
 				<artifactId>druid</artifactId>
@@ -47,11 +50,25 @@
 			</dependency>
 
 			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-starter-test</artifactId>
+				<version>1.4.1.RELEASE</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.lazyluke</groupId>
+				<artifactId>log4jdbc-remix</artifactId>
+				<version>0.2.7</version>
+			</dependency>
+
+			<!-- mybatis 基础包 -->
+			<dependency>
 				<groupId>org.mybatis</groupId>
 				<artifactId>mybatis</artifactId>
 				<version>${mybatis.version}</version>
 			</dependency>
-
+			
+			<!-- spring 集成 mybatis 包 -->
 			<dependency>
 				<groupId>org.mybatis</groupId>
 				<artifactId>mybatis-spring</artifactId>
@@ -68,6 +85,8 @@
 	</dependencyManagement>
 
 	<dependencies>
+
+	<!-- 单元测试 junit -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -99,10 +118,10 @@
 			<artifactId>spring-context</artifactId>
 		</dependency>
 
-<!-- 		<dependency> -->
-<!-- 			<groupId>org.springframework.session</groupId> -->
-<!-- 			<artifactId>spring-session</artifactId> -->
-<!-- 		</dependency> -->
+		<!-- <dependency> -->
+		<!-- <groupId>org.springframework.session</groupId> -->
+		<!-- <artifactId>spring-session</artifactId> -->
+		<!-- </dependency> -->
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
