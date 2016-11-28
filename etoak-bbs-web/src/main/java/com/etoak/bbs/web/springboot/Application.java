@@ -28,7 +28,7 @@ import org.springframework.stereotype.Component;
 @Component
 @ServletComponentScan
 @Configuration  
-@ComponentScan  
+@ComponentScan("com.etoak.bbs.web")
 @EnableAutoConfiguration  
 public class Application extends SpringBootServletInitializer {
 //WebMvcConfigurerAdapter{
